@@ -1,15 +1,9 @@
-//
-//  ContentView.swift
-//  Africa
-//
-//  Created by Xcode on 9/2/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image(.coverBuffalo)
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
