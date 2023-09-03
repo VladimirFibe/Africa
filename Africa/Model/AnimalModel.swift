@@ -1,6 +1,6 @@
 import Foundation
 
-struct AnimalModel: Identifiable, Codable {
+struct AnimalModel: Identifiable, Codable, Hashable {
     let id: String
     let name: String
     let headline: String
@@ -9,4 +9,8 @@ struct AnimalModel: Identifiable, Codable {
     let image: String
     let gallery: [String]
     let fact: [String]
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }

@@ -8,12 +8,16 @@ struct ContentView: View {
                 CoverImageView()
                     .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
+                    NavigationLink(value: animal) {
+                        AnimalListItemView(animal: animal)
+                    }
                 }
-                
             }
             .listStyle(.plain)
             .navigationTitle("Africa")
+            .navigationDestination(for: AnimalModel.self) { animal in
+                AnimalDetailView(animal: animal)
+            }
         }
     }
 }
