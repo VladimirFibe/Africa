@@ -32,6 +32,8 @@
 		AEE01D552AA30ABB0030DB07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE01D542AA30ABB0030DB07 /* Preview Assets.xcassets */; };
 		AEFBDDA02AA4229E007BC261 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBDD9F2AA4229E007BC261 /* CoverImageModel.swift */; };
 		AEFBDDA32AA42455007BC261 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBDDA22AA42455007BC261 /* Bundle+Extension.swift */; };
+		AEFBDDA52AA42DD7007BC261 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBDDA42AA42DD7007BC261 /* AnimalListItemView.swift */; };
+		AEFBDDA72AA439A6007BC261 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBDDA62AA439A6007BC261 /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		AEE01D542AA30ABB0030DB07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEFBDD9F2AA4229E007BC261 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		AEFBDDA22AA42455007BC261 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		AEFBDDA42AA42DD7007BC261 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		AEFBDDA62AA439A6007BC261 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 			children = (
 				AEE01D4F2AA30ABA0030DB07 /* ContentView.swift */,
 				AEA9B53E2AA3AF74003086F5 /* CoverImageView.swift */,
+				AEFBDDA42AA42DD7007BC261 /* AnimalListItemView.swift */,
 			);
 			path = Browse;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFBDD9F2AA4229E007BC261 /* CoverImageModel.swift */,
+				AEFBDDA62AA439A6007BC261 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,9 +313,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7DF22F2AA3412A00FEC4E0 /* VideoListView.swift in Sources */,
+				AEFBDDA52AA42DD7007BC261 /* AnimalListItemView.swift in Sources */,
 				AEFBDDA32AA42455007BC261 /* Bundle+Extension.swift in Sources */,
 				AE7DF2332AA3418400FEC4E0 /* MapView.swift in Sources */,
 				AEA9B53F2AA3AF74003086F5 /* CoverImageView.swift in Sources */,
+				AEFBDDA72AA439A6007BC261 /* AnimalModel.swift in Sources */,
 				AEFBDDA02AA4229E007BC261 /* CoverImageModel.swift in Sources */,
 				AEE01D502AA30ABA0030DB07 /* ContentView.swift in Sources */,
 				AE7DF2282AA3405200FEC4E0 /* MainView.swift in Sources */,
@@ -373,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -430,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
